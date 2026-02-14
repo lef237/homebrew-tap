@@ -8,4 +8,8 @@ cask "one-time-editor" do
   homepage "https://github.com/lef237/one-time-editor"
 
   app "One-Time Editor.app"
+
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/One-Time Editor.app"]
+  end
 end
