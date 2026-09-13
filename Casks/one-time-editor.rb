@@ -1,6 +1,6 @@
 cask "one-time-editor" do
-  version "1.0.9"
-  sha256 "953bcf54f9cf65d85783b03055bd640ff3b87da3b916f5cf9a44bddddf198995"
+  version "1.0.10"
+  sha256 "6c9e53e5587d716c9ea1b2183e3bad6d14a89cd6a15fed1327ebcb03dce9f1d4"
 
   url "https://github.com/lef237/one-time-editor/releases/download/v#{version}/One-Time.Editor-#{version}-arm64.dmg"
   name "One-Time Editor"
