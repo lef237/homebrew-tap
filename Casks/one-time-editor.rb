@@ -1,8 +1,11 @@
 cask "one-time-editor" do
-  version "1.0.10"
-  sha256 "6c9e53e5587d716c9ea1b2183e3bad6d14a89cd6a15fed1327ebcb03dce9f1d4"
+  arch arm: "arm64", intel: "x64"
 
-  url "https://github.com/lef237/one-time-editor/releases/download/v#{version}/One-Time.Editor-#{version}-arm64.dmg"
+  version "1.0.11"
+  sha256 arm:   "5aabab17693cc3835ba8fb692ea856152a978e0342b63b8934b76f63cb1cfa57",
+         intel: "6f3de6bd51e9b521b0f50f273cc0359126761e83e3382499594ccaefb998ac30"
+
+  url "https://github.com/lef237/one-time-editor/releases/download/v#{version}/One-Time.Editor-#{version}-#{arch}.dmg"
   name "One-Time Editor"
   desc "A lightweight scratchpad that lives one shortcut away"
   homepage "https://github.com/lef237/one-time-editor"
