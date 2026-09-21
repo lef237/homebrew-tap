@@ -1,9 +1,9 @@
 cask "one-time-editor" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.11"
-  sha256 arm:   "5aabab17693cc3835ba8fb692ea856152a978e0342b63b8934b76f63cb1cfa57",
-         intel: "6f3de6bd51e9b521b0f50f273cc0359126761e83e3382499594ccaefb998ac30"
+  version "1.1.0"
+  sha256 arm:   "466528a135569a8b3be42fa2e2f5d83a3e77d6189ec4568fab676f8a13bb3bb3",
+         intel: "237f791a64437cd6abba1ec93e5e99f2750407baea89350f765c22ec88e607cf"
 
   url "https://github.com/lef237/one-time-editor/releases/download/v#{version}/One-Time.Editor-#{version}-#{arch}.dmg"
   name "One-Time Editor"
