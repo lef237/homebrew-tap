@@ -12,7 +12,7 @@ cask "one-time-editor" do
 
   app "One-Time Editor.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/One-Time Editor.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/One-Time Editor.app"]
   end
 end
