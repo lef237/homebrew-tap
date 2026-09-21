@@ -7,8 +7,10 @@ cask "one-time-editor" do
 
   url "https://github.com/lef237/one-time-editor/releases/download/v#{version}/One-Time.Editor-#{version}-#{arch}.dmg"
   name "One-Time Editor"
-  desc "A lightweight scratchpad that lives one shortcut away"
+  desc "Lightweight scratchpad that lives one shortcut away"
   homepage "https://github.com/lef237/one-time-editor"
+
+  depends_on :macos
 
   app "One-Time Editor.app"
 
